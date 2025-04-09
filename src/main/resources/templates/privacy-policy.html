@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html th:lang="${#locale.language}" th:dir="#{language.direction}" th:data-language="${#locale.toString()}" xmlns:th="https://www.thymeleaf.org">
+  <head>
+  <th:block th:insert="~{fragments/common :: head(title=#{legal.privacy}, header=#{legal.privacy})}"></th:block>
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content-wrap">
+        <th:block th:insert="~{fragments/navbar.html :: navbar}"></th:block>
+        <br><br>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 bg-card">
+              <div class="tool-header">
+                <span class="material-symbols-rounded tool-header-icon security">privacy_tip</span>
+                <span class="tool-header-text" th:text="#{legal.privacy}">Privacy Policy</span>
+              </div>
+              <div class="p-4">
+                <p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or use our services.</p>
+                
+                <h2>Information We Collect</h2>
+                <p>We collect minimal information necessary to provide our service. This may include:</p>
+                <ul>
+                  <li>Files you upload for processing</li>
+                  <li>Log data such as IP address, browser type, and pages visited</li>
+                  <li>Cookies and similar technologies for site functionality</li>
+                </ul>
+                
+                <h2>How We Use Your Information</h2>
+                <p>We use the information we collect to:</p>
+                <ul>
+                  <li>Provide, maintain, and improve our services</li>
+                  <li>Process your file conversions</li>
+                  <li>Monitor and analyze usage patterns</li>
+                  <li>Detect and prevent security incidents</li>
+                </ul>
+                
+                <h2>Data Retention</h2>
+                <p>Files uploaded for processing are typically deleted immediately after processing. We retain log data for a limited period for security and troubleshooting purposes.</p>
+                
+                <h2>Changes</h2>
+                <p>We may update this privacy policy from time to time to reflect changes to our practices or for other operational, legal, or regulatory reasons.</p>
+                
+                <h2>Contact Us</h2>
+                <p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <th:block th:insert="~{fragments/footer.html :: footer}"></th:block>
+    </div>
+  </body>
+</html> 
