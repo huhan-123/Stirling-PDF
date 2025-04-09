@@ -14,7 +14,7 @@ You can report security vulnerabilities through two channels:
    - Provide a detailed description of the vulnerability
 
 2. **Direct Email**:
-   - Send your report to security@stirlingpdf.com
+   - Send your report to security@pdfly.site
    - Please include as much information as possible about the vulnerability
 
 ### What to Include

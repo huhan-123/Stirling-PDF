@@ -49,7 +49,7 @@ public class AutoSplitPdfController {
                     Set.of(
                             "https://github.com/Stirling-Tools/Stirling-PDF",
                             "https://github.com/Frooodle/Stirling-PDF",
-                            "https://stirlingpdf.com"));
+                            "https://pdfly.site"));
 
     private final CustomPDFDocumentFactory pdfDocumentFactory;
 

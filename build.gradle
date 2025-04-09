@@ -120,7 +120,7 @@ jpackage {
     appVersion = project.version
 //    appVersion = "2005.45.1"
     vendor = "Stirling-Software"
-    appDescription = "Stirling PDF - Your Local PDF Editor"
+    appDescription = "Pdfly - Your Local PDF Editor"
     icon = "src/main/resources/static/favicon.ico"
     verbose = true
 //    mainClass = "org.springframework.boot.loader.launch.JarLauncher"
@@ -191,7 +191,7 @@ jpackage {
 
         // Debian package configuration
         //linuxPackageName = "stirlingpdf"
-        linuxDebMaintainer = "support@stirlingpdf.com"
+        linuxDebMaintainer = "support@pdfly.site"
         linuxMenuGroup = "Office;PDF;Productivity"
         linuxAppCategory = "Office"
         linuxAppRelease = "1"
