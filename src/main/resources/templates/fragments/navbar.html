@@ -18,6 +18,11 @@
   <script th:src="@{'/js/homecard.js'}"></script>
   <script th:src="@{'/js/githubVersion.js'}"></script>
   <form th:action="@{'/dummyFormToPopulateCSRF'}" method="post" enctype="multipart/form-data"></form>
+  <style>
+    .go-pro-link {
+      display: none !important;
+    }
+  </style>
   <nav class="navbar navbar-expand-xl" style="
   background: var(--md-nav-background);
   border-bottom-style: solid;
@@ -176,6 +181,7 @@
               <span class="go-pro-badge" th:text="#{enterpriseEdition.button}"></span>
             </a>
           </li>
+
         </ul>
       </div>
     </div>
