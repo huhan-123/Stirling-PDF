@@ -62,15 +62,15 @@ public class HomeWebController {
     @GetMapping("/privacy-policy")
     @Hidden
     public String privacyPolicy(Model model) {
-        model.addAttribute("currentPage", "privacy-policy");
-        return "privacy-policy";
+        model.addAttribute("currentPage", "privacy");
+        return "privacy";
     }
 
     @GetMapping("/terms-and-conditions")
     @Hidden
     public String termsAndConditions(Model model) {
-        model.addAttribute("currentPage", "terms-and-conditions");
-        return "terms-and-conditions";
+        model.addAttribute("currentPage", "terms");
+        return "terms";
     }
 
     @GetMapping("/releases")
